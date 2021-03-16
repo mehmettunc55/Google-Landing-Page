@@ -1,0 +1,156 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin:0;
+    text-decoration: none;
+    font-family: arial, sans-serif;
+
+}
+
+.header-left {
+    float: left;
+    position: absolute;
+    left: 10px;
+    
+}
+
+.header-right {
+    float: right;
+}
+
+.header-right li{
+
+}
+
+.header-left li, .header-right li{
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+#signin{
+    background-color: rgba(30, 30, 243, 0.5);
+    padding: 6px;
+    position: relative;
+    left: 25px;
+    border-radius: 7px;
+    }
+
+#signin a{
+    color: white;
+}
+#appicon{
+    width: 1%;
+}
+
+.searchbarcontent{
+    display: block;
+    margin: 0 auto;
+    position: absolute;
+    top: 150px;
+    left: 600px;
+    
+}
+
+.searchbar{
+    position: relative;
+    right: 90px;
+    width: 400px;
+    height: 45px;
+    border-radius: 25px;
+    z-index: -1;
+    opacity: 0.3;
+} 
+
+#microphone{
+    z-index: 1;
+    width:1.5%;
+    position: relative;
+    right: 120px;
+    top: 6px;
+}
+#magnify{
+    position: relative;
+    right: 50px;
+    top: 8px;
+}
+
+#googlesearch{
+    position: relative;
+    right: 475px;
+    top: 70px;
+    padding: 10px;
+    background-color: #EFEFEF;
+    font-size: 14px;
+    color: #66666;
+    opacity: 0.6;
+    border:none;
+    outline: none;
+    border-radius:10px;
+}
+
+#googlesearch:hover{
+    cursor: pointer;
+}
+
+
+#feellucky{
+    position: relative;
+    right: 400px;
+    top: 70px;
+    padding: 10px;
+    background-color: #EFEFEF;
+    font-size: 14px;
+    color: #666666;
+    opacity: 0.6;
+    border:none;
+    outline: none;
+    border-radius:10px;
+}
+
+#feellucky:hover{
+    cursor: pointer;
+}
+.searchbarcontent p{
+    position: relative;
+    top: 50px;
+    
+    font-size: 12px;
+}
+
+footer{
+    background-color: #F2F2F2;
+    position: relative;
+    height: 100px;
+    top: 580px;
+    
+}
+footer h5{
+    color: #666666;
+    border-bottom: 1px solid rgb(150, 140, 140, .5);
+    padding: 10px;
+    font-size: 13px;
+    color: rgb(150, 140, 140);
+}
+#leftlink{
+  
+    background-color: #F2F2F2;
+   
+}
+#leftlink a{
+    font-size: 13px;
+    color: rgb(150, 140, 140);
+    padding: 10px;
+    margin: 10 px 15px 0 0;
+}
+
+#rightlink a{
+    position: relative;
+    float: right;
+    bottom:20px;
+    font-size: 13px;
+    color: rgb(150, 140, 140);
+    padding:10px;
+    margin-left:0 15px 20px 0;
+}
